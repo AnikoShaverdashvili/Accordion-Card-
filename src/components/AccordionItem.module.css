@@ -1,0 +1,20 @@
+.questionsContaner {
+  cursor: pointer;
+}
+.questionsContaner p:hover {
+  color: #f47b56;
+}
+.questionsContaner p {
+  font-size: 15px;
+  padding-bottom: 0.2rem;
+}
+.border {
+  border-bottom: 1px solid #e8e8ea;
+}
+.questionsContaner span {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: #787887;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
