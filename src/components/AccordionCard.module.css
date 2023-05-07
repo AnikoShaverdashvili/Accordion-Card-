@@ -1,0 +1,32 @@
+.container {
+  background-color: aliceblue;
+  width: 70%;
+  height: 60%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0.2, 0.2);
+  padding: 50px 0px;
+  background-image: url("../images/pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left -60% top 80%;
+  background-size: 70%;
+  position: relative;
+  z-index: 19;
+}
+
+.iconWrapper {
+  height: 100;
+  overflow: hidden;
+}
+
+.icon {
+  z-index: 10;
+  transform: translateX(-10%);
+}
+
+.imageOnTop {
+  position: absolute;
+  top: 40%;
+  left: -12%;
+  z-index: 20; /* set higher than .icon z-index to place on top */
+}
