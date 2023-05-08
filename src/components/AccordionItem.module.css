@@ -7,6 +7,7 @@
 .questionsContaner p {
   font-size: 15px;
   padding-bottom: 0.2rem;
+  transition: 0.2s ease-in-out;
 }
 .border {
   border-bottom: 1px solid #e8e8ea;
@@ -17,4 +18,5 @@
   color: #787887;
   font-weight: 300;
   padding-bottom: 1rem;
+  transition: 10s ease-in-out;
 }
